@@ -1,0 +1,178 @@
+.item-menu {
+  padding-left: 50% !important;
+}
+header {
+  width: 100%;
+  height: auto;
+}
+
+
+.card {
+  max-width: 900px;
+  border: none !important;
+}
+.navbar-brand {
+  font-family: "Lobster", regular;
+  font-size: 37px !important;
+}
+
+.card-body2 {
+  border: 1px solid #dddddd;
+  margin-bottom: 50px;
+}
+.card-title {
+  max-width: 50%;
+  text-align: left;
+  font-family: "Cabin", Bold;
+  font-size: 40px;
+  color: #373a3c;
+}
+
+.card-text {
+    border-top: 2px solid;
+    color: #373A3C;
+}
+.card-text2 {
+  border: none !important;
+}
+.red-menu{
+    font-family: "Cabin", "Regular";
+    color: #373a3c; 
+    padding-top: 70px;;
+}
+.recetas{
+  width: 100%;
+  padding-top: 50px;;
+        font-family: "Cabin", "Regular";
+        color: #373a3c; 
+        font-size: 40px;
+    
+}
+.container{
+  margin: 5%;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.carousel-indicators {
+  top: 14rem;
+}
+
+.txt-ingred {
+  list-style: none;
+  border-top: 1px solid;
+  font-family: "Cabin", "Regular";
+  color: #373a3c;
+  text-align: left;
+}
+.newsletter {
+  background-color: #dc3545;
+  padding: 80px;
+}
+.btn-danger {
+  border: 1px solid !important;
+}
+.fin {
+  background-color: #373a3c;
+  font-family: "Lobster", regular;
+  font-size: 37px !important;
+}
+.ingredientes{
+    border-top: 2px solid #373a3c;
+}
+
+.relacionadas{
+  border-top: 2px solid;
+  color: #373A3C;
+}
+.suscribir{
+    font-family: "Cabin", "Regular";
+        color: #ffffff; 
+        font-size: 40px;
+}
+.texto-final{
+    font-family: "Cabin", "Regular";
+        color: #ffffff; 
+        font-size: 25px;
+}
+.infor{
+    font-family: "Lobster", regular;
+  font-size: 25px !important;
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    padding-left: 2% !important;
+  }
+
+  .card {
+    padding: 2px;
+    margin: 10px;
+    max-width: 100%;
+    border: none;
+  }
+  .h1 {
+    font-size: px;
+    text-align: center;
+  }
+  .card-title {
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+
+    font-family: "Cabin", Bold;
+    font-size: 27px;
+    color: #373a3c;
+  }
+
+  .texto-principal {
+    padding-top: 0%;
+  }
+  .btn-light {
+    width: 150px;
+    height: 40px;
+    font-size: 9px;
+    padding: 0;
+    text-align: left;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  .principal{
+    border-top: 2.5px solid var(--dark) !important;
+  }
+  .txt-ingred {
+    list-style: none;
+    border-top: 1px solid;
+    font-family: "Cabin", "Regular";
+    color: #373a3c;
+    text-align: left;
+  }
+  .ingredientes{
+    border-top: none;
+}
+.suscribir{
+    font-family: "Cabin", "Regular";
+        color: #ffffff; 
+        font-size: 30px;
+}
+.texto-final{
+    font-family: "Cabin", "Regular";
+        color: #ffffff; 
+        font-size: 14px;
+}
+
+.relacionadas{
+    border-top: none;
+}
+.infor{
+    font-family: "Lobster", regular;
+  font-size: 14px !important;
+}
+}
